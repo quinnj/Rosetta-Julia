@@ -1,0 +1,11 @@
+#Substring top tail
+#http://rosettacode.org/wiki/Substring/Top_and_tail
+
+# julia> "My String"[2:end] #without first character
+# "y String"
+ 
+# julia> "My String"[1:end-1] #without last character
+# "My Strin"
+ 
+# julia> chop("My String") #alternate remove last character
+# "My Strin"

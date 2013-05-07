@@ -1,0 +1,8 @@
+#Sum of a series
+#http://rosettacode.org/wiki/Sum_of_a_series
+
+# julia> f(x) = sum(1/[1:x].^2)
+# # method added to generic function f
+ 
+# julia> f(1000)
+# 1.6439345666815615

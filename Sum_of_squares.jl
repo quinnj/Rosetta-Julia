@@ -1,0 +1,11 @@
+#Sum of squares
+#http://rosettacode.org/wiki/Sum_of_squares
+
+# julia> sum([1,2,3,4,5].^2)
+# 55
+ 
+# julia> sum([x^2 for x in [1,2,3,4,5]])
+# 55
+ 
+# julia> sum([x^2 for x in []])
+# 0

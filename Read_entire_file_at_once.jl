@@ -1,0 +1,7 @@
+#Read entire file at once
+#http://rosettacode.org/wiki/Read_entire_file
+
+sample_filepath = "/devel/myfile.txt"
+f = open(sample_filepath)
+file_contents = readall(f)    # load all into a single String
+close(f)

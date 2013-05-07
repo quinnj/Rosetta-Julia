@@ -1,0 +1,38 @@
+#Sort an integer array
+#http://rosettacode.org/wiki/Sort_an_integer_array
+
+julia> a = [4,2,3,1]
+4-element Int32 Array:
+ 4
+ 2
+ 3
+ 1
+julia>#non-mutating sort
+sort(a)
+4-element Int32 Array:
+ 1
+ 2
+ 3
+ 4
+ 
+julia> a
+4-element Int32 Array:
+ 4
+ 2
+ 3
+ 1
+ 
+julia>#mutating sort
+ sort!(a)
+4-element Int32 Array:
+ 1
+ 2
+ 3
+ 4
+ 
+julia> a
+4-element Int32 Array:
+ 1
+ 2
+ 3
+ 4

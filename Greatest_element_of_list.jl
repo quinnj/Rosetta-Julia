@@ -1,0 +1,14 @@
+#Greatest element of list
+#http://rosettacode.org/wiki/Greatest_element_of_a_list
+
+# julia> max([1,3,3,7])
+# 7
+ 
+# julia> max([pi,e+2/5,cos(6)/5,sqrt(91/10)])
+# 3.141592653589793
+ 
+# julia> max([1,6,Inf])
+# Inf
+ 
+# julia> max(Float64[])
+# -Inf
