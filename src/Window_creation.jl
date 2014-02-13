@@ -14,4 +14,4 @@ pack(fr, expand=true, fill="both")
 # Make the window visible
 set_visible(window, true)
 
-sleep(7)
+# sleep(7)

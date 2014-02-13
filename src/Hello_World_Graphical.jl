@@ -1,5 +1,5 @@
 #Hello World/Graphical
-#http://rosettacode.org/wiki/Hello_world/Graphical#C
+#http://rosettacode.org/wiki/Hello_world/Graphical
 
 using Tk
 
